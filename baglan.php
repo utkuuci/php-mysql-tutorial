@@ -1,9 +1,9 @@
 <?php
-try{
-    $db = new PDO('mysql:host=localhost;dbname=dersler', 'root', 'root');
-    // echo 'database baglandi';
 
-}catch(PDOException $e){
-    echo $e -> getMessage();
+try {
+    $db = new PDO('mysql:host=localhost;dbname=dersler', 'root', 'root');
+} catch (PDOException $e){
+    echo $e->getMessage();
 }
+
 ?>
